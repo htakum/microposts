@@ -30,6 +30,7 @@
                                 </form>
                             @endif
                         </div>
+                        @include('user_favorite.favorite_button')
                     </div>
                 </li>
             @endforeach
